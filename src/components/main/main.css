@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url("./2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    padding: 100px 0;
+}
+
+.hero h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: white;
+
+}
+
+.hero h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: white;
+    margin-bottom: 17px;
+}
+
+.hero p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.btn {
+    width: 236px;
+    height: 68px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: white;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px 0px #B7322733;
+    border: none;
+    border-radius: 70px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: inherit;
+    border: 1px solid white;
+}
+
+.gg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.aaa {
+    position: absolute;
+}
+
+.aaa img {
+    position: relative;
+    left: 250px;
+    top: -100px;
+}
+
+.app {
+    margin-top: 700px;
+}
+
+.app .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+.app h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 17px 0;
+}
+
+.app p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.shop h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+.shop h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 17px 0;
+}
+
+.shop p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.shop {
+    padding: 100px 0;
+}
+
+.shop .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+.check h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 17px 0;
+}
+
+.check p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.check {
+    padding: 100px 0;
+}
+
+.check .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.now {
+    background-image: url("./5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+    height: 509px;
+}
+
+.now h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: white;
+}
+
+.now p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 60px;    
+}
